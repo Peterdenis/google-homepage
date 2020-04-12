@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+.goo{
+    position: absolute;
+    left: 520px;
+    top: 154px;
+}
+
+main p {
+    font-size: 13px;
+}
+
+input[type=text]{
+    width: 600px;
+    height: 40px;
+    position: absolute;
+    left: 360px;
+    top: 275px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+.bouton {
+    position: absolute;
+    left: 530px;
+    top: 350px;
+}
+
+input[type=button]{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 8px;
+    background-color: #e7e7e7;
+}
+
+p{
+    position: absolute;
+    left: 530px;
+    top: 400px;
+}
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2F2F2;
+    height: 80px;
+    display: block;
+}
+
+.header-div {
+    height: 30px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 0;
+    color: #595252;
+    font-size: 15px;
+    border-bottom: solid 1px #595252;
+}
+
+.foot-div {
+    padding: 10px 25px 0 25px;
+    font-size:15px;
+}
+
+.left-foot {
+    float: left;
+}
+
+.left-foot a {
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.right-foot {
+    float: right;
+}
+
+.right-foot a {
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.left-foot a:hover {
+    text-decoration: underline;
+}
+
+.right-foot a:hover {
+    text-decoration: underline;
+}
+
+
